@@ -1,0 +1,24 @@
+{
+  "name": "newsbot",
+  "version": "1.0.0",
+  "description": "Collect and publish news! Great stuff!",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "NODE_PATH=src nodemon server"
+  },
+  "author": "Louis Capitanchik <contact@louiscap.co>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^7.0.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
